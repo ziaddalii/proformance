@@ -1,102 +1,39 @@
 "use client";
 import React from "react";
 import { HeroParallax } from "../ui/parallax";
+import { MdChecklist } from "react-icons/md";
+import { IoChatbubblesSharp } from "react-icons/io5";
+import { GoGraph } from "react-icons/go";
+import { FaClock } from "react-icons/fa";
+import { LiaGlobeSolid } from "react-icons/lia";
 
 export function HeroParallaxDemo() {
-  return <HeroParallax products={products} />;
+  return <HeroParallax testimonials={testimonials} />;
 }
-export const products = [
+export const testimonials = [
   {
-    title: "Moonbeam",
-    link: "https://gomoonbeam.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/moonbeam.png",
+    title: "Effortless Task Management",
+    desc: "Assign, prioritize, and track tasks seamlessly with our intuitive interface.",
+    icon: <MdChecklist  />,
   },
   {
-    title: "Cursor",
-    link: "https://cursor.so",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cursor.png",
+    title: "Real-Time Team Communication",
+    desc: "Stay connected with chat, video conferencing, and instant notifications.",
+    icon: <IoChatbubblesSharp />,
   },
   {
-    title: "Rogue",
-    link: "https://userogue.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/rogue.png",
-  },
-
-  {
-    title: "Editorially",
-    link: "https://editorially.org",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editorially.png",
+    title: "Comprehensive Performance Tracking",
+    desc: "Monitor individual and team performance with detailed analytics and reports.",
+    icon: <GoGraph />,
   },
   {
-    title: "Editrix AI",
-    link: "https://editrix.ai",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editrix.png",
+    title: "Accurate Time Tracking",
+    desc: "Track working hours and project time effortlessly with integrated tools.",
+    icon: <FaClock />,
   },
   {
-    title: "Pixel Perfect",
-    link: "https://app.pixelperfect.quest",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/pixelperfect.png",
-  },
-
-  {
-    title: "Algochurn",
-    link: "https://algochurn.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/algochurn.png",
-  },
-  {
-    title: "Aceternity UI",
-    link: "https://ui.aceternity.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/aceternityui.png",
-  },
-  {
-    title: "Tailwind Master Kit",
-    link: "https://tailwindmasterkit.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/tailwindmasterkit.png",
-  },
-  {
-    title: "SmartBridge",
-    link: "https://smartbridgetech.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/smartbridge.png",
-  },
-  {
-    title: "Renderwork Studio",
-    link: "https://renderwork.studio",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/renderwork.png",
-  },
-
-  {
-    title: "Creme Digital",
-    link: "https://cremedigital.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cremedigital.png",
-  },
-  {
-    title: "Golden Bells Academy",
-    link: "https://goldenbellsacademy.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/goldenbellsacademy.png",
-  },
-  {
-    title: "Invoker Labs",
-    link: "https://invoker.lol",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/invoker.png",
-  },
-  {
-    title: "E Free Invoice",
-    link: "https://efreeinvoice.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/efreeinvoice.png",
+    title: "Optimized for Remote Work",
+    desc: "Enable seamless remote work with secure access and collaborative tools.",
+    icon: <LiaGlobeSolid />,
   },
 ];

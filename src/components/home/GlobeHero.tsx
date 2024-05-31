@@ -3,7 +3,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import dynamic from "next/dynamic";
 import { BackgroundGradientAnimation } from "../ui/background-gradient-animation";
-import { MultiStepLoaderDemo } from "./FeaturesStepLoader";
 import { Button } from "../ui/button";
 
 const World = dynamic(() => import("../ui/globe").then((m) => m.World), {
@@ -397,8 +396,9 @@ const sampleArcs = [
 ];
 export function GlobeHero() {
   return (
+    <section>
     <BackgroundGradientAnimation>
-      <div className="h-auto w-full dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex items-center justify-center">
+      <div className="h-auto w-full relative dark:bg-grid-white/[0.2] bg-grid-black/[0.2] flex items-center justify-center">
         <div className="flex flex-row items-center pt-20 justify-center min-h-[520px] h-screen md:h-auto relative w-full">
           <div className="absolute pointer-events-none inset-0 flex items-center justify-center [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
           <div className="container w-full relative overflow-hidden h-full md:h-[40rem]">
@@ -437,7 +437,7 @@ export function GlobeHero() {
                 <Button className="mt-3 px-8">Get Started</Button>
               </div>
             </motion.div>
-            <div className="absolute left-0 w-full sm:-bottom-72 md:-bottom-64 -bottom-14 h-[23rem] sm:h-full z-10">
+            <div className="absolute left-0 w-full sm:-bottom-72 md:-bottom-64 -bottom-14 h-[23rem] sm:h-full z-50">
               <World data={sampleArcs} globeConfig={globeConfig} />
             </div>
           </div>
@@ -447,5 +447,7 @@ export function GlobeHero() {
         </div>
       </div>
     </BackgroundGradientAnimation>
+
+    </section>
   );
 }
