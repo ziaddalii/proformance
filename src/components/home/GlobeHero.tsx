@@ -397,57 +397,56 @@ const sampleArcs = [
 export function GlobeHero() {
   return (
     <section>
-    <BackgroundGradientAnimation>
-      <div className="h-auto w-full relative dark:bg-grid-white/[0.2] bg-grid-black/[0.2] flex items-center justify-center">
-        <div className="flex flex-row items-center pt-20 justify-center min-h-[520px] h-screen md:h-auto relative w-full">
-          <div className="absolute pointer-events-none inset-0 flex items-center justify-center [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
-          <div className="container w-full relative overflow-hidden h-full md:h-[40rem]">
-            <motion.div
-              initial={{
-                opacity: 0,
-                y: 20,
-              }}
-              animate={{
-                opacity: 1,
-                y: 0,
-              }}
-              transition={{
-                duration: 1,
-              }}
-              className="div"
-            >
-              <h2 className="max-w-4xl mx-auto text-center text-4xl md:text-5xl lg:text-7xl font-bold">
-                <span
-                  className="bg-clip-text text-"
-                  style={{
-                    background: "linear-gradient(120deg, #06B6D4, #6366F1)",
-                    WebkitTextFillColor: "transparent",
-                    WebkitBackgroundClip: "text",
-                  }}
-                >
-                  Proformance{" "}
-                </span>
-                Making Remote Work Effortless
-              </h2>
-              <p className="text-center text-base md:text-lg font-normal text-neutral-200 max-w-md mt-2 mx-auto">
-                ensures your team stays connected, productive, and engaged, no
-                matter where they are.
-              </p>
-              <div className="text-center">
-                <Button className="mt-3 px-8">Get Started</Button>
+      <BackgroundGradientAnimation>
+        <div className="h-auto w-full relative dark:bg-grid-white/[0.2] bg-grid-black/[0.2] flex items-center justify-center">
+          <div className="flex flex-row items-center pt-20 justify-center min-h-[520px] h-screen md:h-auto relative w-full">
+            <div className="absolute pointer-events-none inset-0 flex items-center justify-center [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
+            <div className="container w-full relative overflow-hidden h-full md:h-[40rem]">
+              <motion.div
+                initial={{
+                  opacity: 0,
+                  y: 20,
+                }}
+                animate={{
+                  opacity: 1,
+                  y: 0,
+                }}
+                transition={{
+                  duration: 1,
+                }}
+                className="div"
+              >
+                <h2 className="max-w-4xl mx-auto text-center text-4xl md:text-5xl lg:text-7xl font-bold">
+                  <span
+                    className="bg-clip-text text-"
+                    style={{
+                      background: "linear-gradient(120deg, #06B6D4, #6366F1)",
+                      WebkitTextFillColor: "transparent",
+                      WebkitBackgroundClip: "text",
+                    }}
+                  >
+                    Proformance{" "}
+                  </span>
+                  Making Remote Work Effortless
+                </h2>
+                <p className="text-center text-base md:text-lg font-normal text-neutral-200 max-w-md mt-2 mx-auto">
+                  ensures your team stays connected, productive, and engaged, no
+                  matter where they are.
+                </p>
+                <div className="text-center">
+                  <Button className="mt-3 px-8">Get Started</Button>
+                </div>
+              </motion.div>
+              <div className="absolute left-0 w-full sm:-bottom-72 md:-bottom-64 -bottom-14 h-[23rem] sm:h-full z-50">
+                <World data={sampleArcs} globeConfig={globeConfig} />
               </div>
-            </motion.div>
-            <div className="absolute left-0 w-full sm:-bottom-72 md:-bottom-64 -bottom-14 h-[23rem] sm:h-full z-50">
-              <World data={sampleArcs} globeConfig={globeConfig} />
             </div>
+            <div className="absolute h-full top-0 left-0 lg:w-52 bg-gradient-to-l pointer-events-none select-none from-transparent to-[#01072A] z-40" />
+            <div className="absolute h-full top-0 right-0 lg:w-52 bg-gradient-to-r pointer-events-none select-none from-transparent to-[#01072A] z-40" />
+            <div className="absolute w-screen bottom-0 inset-x-0 h-40 bg-gradient-to-b pointer-events-none select-none from-transparent to-[#01072A] z-40" />
           </div>
-          <div className="absolute h-full top-0 left-0 lg:w-52 bg-gradient-to-l pointer-events-none select-none from-transparent to-[#01072A] z-40" />
-          <div className="absolute h-full top-0 right-0 lg:w-52 bg-gradient-to-r pointer-events-none select-none from-transparent to-[#01072A] z-40" />
-          <div className="absolute w-screen bottom-0 inset-x-0 h-40 bg-gradient-to-b pointer-events-none select-none from-transparent to-[#01072A] z-40" />
         </div>
-      </div>
-    </BackgroundGradientAnimation>
-
+      </BackgroundGradientAnimation>
     </section>
   );
 }

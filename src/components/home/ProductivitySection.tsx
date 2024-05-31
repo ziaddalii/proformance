@@ -4,6 +4,7 @@ import { GiChart } from "react-icons/gi";
 import { AiOutlineRise } from "react-icons/ai";
 import { FaClock } from "react-icons/fa";
 import { IoChatbubblesSharp } from "react-icons/io5";
+import { Button } from "../ui/button";
 
 interface Points {
   icon: ReactNode;
@@ -40,6 +41,7 @@ export default function ProductivitySection() {
             Experience a 100% increase in performance with Proformance
           </p>
         </header>
+          <Button className="px-4 mt-8">Try it now</Button>
         <div className="bg-[#00000053] mt-12 p-8 rounded-3xl border border-1 border-[#FFFFFF53] w-fit backdrop-blur-md">
 
         <p className="text-lg font-bold">100% Increase in Performance</p>
