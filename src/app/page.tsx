@@ -7,9 +7,9 @@ export default function Home() {
   return (
     <main className="overflow-hidden">
       <GlobeHero />
+      <ProductivitySection />
       <HeroParallaxDemo />
       <FeaturesSection />
-      <ProductivitySection />
     </main>
   );
 }
