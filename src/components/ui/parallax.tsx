@@ -133,7 +133,7 @@ export const FeatureCard = ({
         x: translate,
       }}
       key={feature.title}
-      className="group/feature relative bg-[#00000074] w-[30rem] text-center p-8 flex-shrink-0 rounded-2xl"
+      className="group/feature relative bg-[#00000074] md:w-[30rem] w-[20rem] text-center p-8 flex-shrink-0 rounded-2xl"
     >
       <div className="absolute group-hover/feature:w-full transition-all duration-300 inset-x-0 h-px w-1/2 mx-auto -top-px shadow-2xl bg-gradient-to-r from-transparent via-teal-500 to-transparent" />
 
@@ -141,7 +141,7 @@ export const FeatureCard = ({
         {feature.icon}
       </div>
       {/* <div className="absolute inset-0 h-full w-full opacity-0 group-hover/feature:opacity-50 bg-black pointer-events-none"></div> */}
-      <h2 className="bottom-4 font-bold text-xl left-4 text-white">
+      <h2 className="bottom-4 font-bold md:text-xl text-lg left-4 text-white">
         {feature.title}
       </h2>
       <p>{feature.desc}</p>
