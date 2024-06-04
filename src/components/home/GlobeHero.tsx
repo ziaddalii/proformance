@@ -437,7 +437,7 @@ export function GlobeHero() {
                   <Button className="mt-3 px-8">Get Started</Button>
                 </div>
               </motion.div>
-              <div className="absolute left-0 w-full sm:-bottom-72 md:-bottom-64 -bottom-14 h-[23rem] sm:h-full z-50">
+              <div className="absolute left-0 w-full sm:bottom-0 md:-bottom-64 -bottom-14 h-[23rem] sm:h-full z-50">
                 <World data={sampleArcs} globeConfig={globeConfig} />
               </div>
             </div>
