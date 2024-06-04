@@ -4,9 +4,9 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "aceternity.com",
+        hostname: "**",
         port: "",
-        pathname: "/images/**",
+        pathname: "/**",
       },
     ],
   },

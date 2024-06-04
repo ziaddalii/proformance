@@ -133,7 +133,7 @@ export const FeatureCard = ({
         x: translate,
       }}
       key={feature.title}
-      className="group/feature relative  bg-[#030844] w-[30rem] text-center p-8 flex-shrink-0 rounded-2xl"
+      className="group/feature relative bg-[#00000074] backdrop-blur-md w-[30rem] text-center p-8 flex-shrink-0 rounded-2xl"
     >
       <div className="absolute group-hover/feature:w-full transition-all duration-300 inset-x-0 h-px w-1/2 mx-auto -top-px shadow-2xl bg-gradient-to-r from-transparent via-teal-500 to-transparent" />
 

@@ -2,6 +2,7 @@ import { FeaturesSection } from "@/components/home/FeaturesSection";
 import { GlobeHero } from "@/components/home/GlobeHero";
 import { HeroParallaxDemo } from "@/components/home/ParallaxSection";
 import ProductivitySection from "@/components/home/ProductivitySection";
+import { TestimonialsSection } from "@/components/home/Testimonials";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <ProductivitySection />
       <HeroParallaxDemo />
       <FeaturesSection />
+      <TestimonialsSection/>
     </main>
   );
 }
