@@ -14,60 +14,60 @@ export const features = [
   {
     title: "Effortless Task Management",
     desc: "Assign, prioritize, and track tasks seamlessly with our intuitive interface.",
-    icon: <MdChecklist className="text-7xl mx-auto text-white" />,
+    icon: <MdChecklist className="md:text-7xl text-5xl mx-auto text-white" />,
   },
   {
     title: "Real-Time Team Communication",
     desc: "Stay connected with chat, video conferencing, and instant notifications.",
     icon: (
-      <IoChatbubblesSharp className="text-7xl mx-auto text-white hover:text-red" />
+      <IoChatbubblesSharp className="md:text-7xl text-5xl mx-auto text-white hover:text-red" />
     ),
   },
   {
     title: "Comprehensive Performance Tracking",
     desc: "Monitor individual and team performance with detailed analytics and reports.",
-    icon: <GoGraph className="text-7xl mx-auto text-white hover:text-red" />,
+    icon: <GoGraph className="md:text-7xl text-5xl mx-auto text-white hover:text-red" />,
   },
   {
     title: "Accurate Time Tracking",
     desc: "Track working hours and project time effortlessly with integrated tools.",
-    icon: <FaClock className="text-7xl mx-auto text-white hover:text-red" />,
+    icon: <FaClock className="md:text-7xl text-5xl mx-auto text-white hover:text-red" />,
   },
   {
     title: "Optimized for Remote Work",
     desc: "Enable seamless remote work with secure access and collaborative tools.",
     icon: (
-      <LiaGlobeSolid className="text-7xl mx-auto text-white hover:text-red" />
+      <LiaGlobeSolid className="md:text-7xl text-5xl mx-auto text-white hover:text-red" />
     ),
   },
   {
     title: "Accurate Time Tracking",
     desc: "Track working hours and project time effortlessly with integrated tools.",
-    icon: <FaClock className="text-7xl mx-auto text-white hover:text-red" />,
+    icon: <FaClock className="md:text-7xl text-5xl mx-auto text-white hover:text-red" />,
   },
   {
     title: "Optimized for Remote Work",
     desc: "Enable seamless remote work with secure access and collaborative tools.",
     icon: (
-      <LiaGlobeSolid className="text-7xl mx-auto text-white hover:text-red" />
+      <LiaGlobeSolid className="md:text-7xl text-5xl mx-auto text-white hover:text-red" />
     ),
   },
   {
     title: "Effortless Task Management",
     desc: "Assign, prioritize, and track tasks seamlessly with our intuitive interface.",
-    icon: <MdChecklist className="text-7xl mx-auto text-white" />,
+    icon: <MdChecklist className="md:text-7xl text-5xl mx-auto text-white" />,
   },
   {
     title: "Real-Time Team Communication",
     desc: "Stay connected with chat, video conferencing, and instant notifications.",
     icon: (
-      <IoChatbubblesSharp className="text-7xl mx-auto text-white hover:text-red" />
+      <IoChatbubblesSharp className="md:text-7xl text-5xl mx-auto text-white hover:text-red" />
     ),
   },
   {
     title: "Comprehensive Performance Tracking",
     desc: "Monitor individual and team performance with detailed analytics and reports.",
-    icon: <GoGraph className="text-7xl mx-auto text-white hover:text-red" />,
+    icon: <GoGraph className="md:text-7xl text-5xl mx-auto text-white hover:text-red" />,
   },
   //
 
@@ -75,30 +75,30 @@ export const features = [
     title: "Optimized for Remote Work",
     desc: "Enable seamless remote work with secure access and collaborative tools.",
     icon: (
-      <LiaGlobeSolid className="text-7xl mx-auto text-white hover:text-red" />
+      <LiaGlobeSolid className="md:text-7xl text-5xl mx-auto text-white hover:text-red" />
     ),
   },
   {
     title: "Accurate Time Tracking",
     desc: "Track working hours and project time effortlessly with integrated tools.",
-    icon: <FaClock className="text-7xl mx-auto text-white hover:text-red" />,
+    icon: <FaClock className="md:text-7xl text-5xl mx-auto text-white hover:text-red" />,
   },
 
   {
     title: "Real-Time Team Communication",
     desc: "Stay connected with chat, video conferencing, and instant notifications.",
     icon: (
-      <IoChatbubblesSharp className="text-7xl mx-auto text-white hover:text-red" />
+      <IoChatbubblesSharp className="md:text-7xl text-5xl mx-auto text-white hover:text-red" />
     ),
   },
   {
     title: "Effortless Task Management",
     desc: "Assign, prioritize, and track tasks seamlessly with our intuitive interface.",
-    icon: <MdChecklist className="text-7xl mx-auto text-white" />,
+    icon: <MdChecklist className="md:text-7xl text-5xl mx-auto text-white" />,
   },
   {
     title: "Comprehensive Performance Tracking",
     desc: "Monitor individual and team performance with detailed analytics and reports.",
-    icon: <GoGraph className="text-7xl mx-auto text-white hover:text-red" />,
+    icon: <GoGraph className="md:text-7xl text-5xl mx-auto text-white hover:text-red" />,
   },
 ];
