@@ -51,14 +51,14 @@ export const HeroParallax = ({
     springConfig
   );
   const translateY = useSpring(
-    useTransform(scrollYProgress, [0, 0.2], [-700, 500]),
+    useTransform(scrollYProgress, [0, 0.2], [-700, 100]),
     springConfig
   );
   return (
     <div
       ref={ref}
       style={{ backgroundImage: `url(${RadialBG.src})` }}
-      className="h-[300vh] hide-scrollbar bg-no-repeat bg-cover bg-blend-darken bg py-40 overflow-hidden antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
+      className="h-[230vh] hide-scrollbar bg-no-repeat bg-cover bg-blend-darken bg py-40 overflow-hidden antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
     >
       <Header />
       <motion.div
