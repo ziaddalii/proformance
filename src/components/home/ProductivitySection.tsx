@@ -42,7 +42,7 @@ export default function ProductivitySection() {
           </p>
         </header>
           <Button className="px-4 mt-8">Try it now</Button>
-        <div className="bg-[#00000053] mt-12 p-8 rounded-3xl border border-1 border-[#FFFFFF53] w-fit backdrop-blur-sm">
+        <div className="bg-[#00000053] mt-12 p-8 w-fit backdrop-blur-sm">
 
         <p className="text-lg font-bold">100% Increase in Performance</p>
         <ul className="mt-8 space-y-4">
