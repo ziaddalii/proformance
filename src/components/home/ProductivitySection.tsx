@@ -12,19 +12,19 @@ interface Points {
 }
 const supporting_points: Points[] = [
   {
-    icon: <AiOutlineRise className="text-[#5DF5AD]" />,
+    icon: <AiOutlineRise className="text-[#5DF5AD] text-base" />,
     desc: "Streamlined task management for faster completion.",
   },
   {
-    icon: <IoChatbubblesSharp className="text-[#5DF5AD]" />,
+    icon: <IoChatbubblesSharp className="text-[#5DF5AD] text-base" />,
     desc: "Real-time communication tools to eliminate delays.",
   },
   {
-    icon: <GiChart className="text-[#5DF5AD]" />,
+    icon: <GiChart className="text-[#5DF5AD] text-base" />,
     desc: "Comprehensive analytics for better decision-making.",
   },
   {
-    icon: <FaClock className="text-[#5DF5AD]" />,
+    icon: <FaClock className="text-[#5DF5AD] text-base" />,
     desc: "Efficient time tracking to maximize productivity.",
   },
 ];
