@@ -44,7 +44,12 @@ function WhyWe() {
     <section className="container py-12">
       <header className="space-y-2 mb-8">
         <h2 className="text-center md:text-6xl text-4xl">Why Choose Us</h2>
-        <p className="text-slate-400 text-center text-sm">
+        <p className="text-slate-400 font-bold text-center text-sm"
+                  style={{
+                    background: "linear-gradient(to right, #0FE3CA 0%, #016BE1 100%)",
+                    WebkitBackgroundClip: "text",
+                    WebkitTextFillColor: "transparent",
+                  }}>
           The Proformance Advantage
         </p>
       </header>

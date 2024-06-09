@@ -37,7 +37,7 @@ export default function ProductivitySection() {
       <div className="container">
         <header className="space-y-2">
           <h2 className="text-5xl font-bold">Double Your Productivity</h2>
-          <p className="text-neutral-200">
+          <p className="text-slate-400">
             Experience a 100% increase in performance with Proformance
           </p>
         </header>

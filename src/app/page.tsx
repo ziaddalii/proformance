@@ -1,4 +1,5 @@
 import { FeaturesSection } from "@/components/home/FeaturesSection";
+import FreeSection from "@/components/home/FreeSection";
 import { GlobeHero } from "@/components/home/GlobeHero";
 import { HeroParallaxDemo } from "@/components/home/ParallaxSection";
 import ProductivitySection from "@/components/home/ProductivitySection";
@@ -16,6 +17,7 @@ export default function Home() {
       <TestimonialsSection/>
       <ProductivitySection />
       <WhyWe/>
+      <FreeSection/>
     </main>
   );
 }
