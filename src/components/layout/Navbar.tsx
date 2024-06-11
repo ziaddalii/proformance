@@ -4,7 +4,7 @@ import Logo from "@/assets/images/proformance-logo.png";
 import Link from "next/link";
 function Navbar() {
   return (
-    <header className="py-4 h-20 w-full fixed z-[100] top-0 border-b border-1 border-slate-600 bg-[#00000033] backdrop-blur-sm">
+    <header className="py-4 px-4 md-px-0 h-20 w-full fixed z-[100] top-0 border-b border-1 border-slate-600 bg-[#00000033] backdrop-blur-sm">
       <div className="max-w-4xl mx-auto h-full flex items-center justify-between">
         <Link href="/" className="h-full w-fit">
           <Image
