@@ -3,7 +3,7 @@ import { HoverEffect } from "../ui/card-hover-effect";
 import CurvedLinesBg from "@/assets/images/curved-lines.svg";
 export function WhatWeDo() {
   return (
-    <section className={"container relative py-12"}>
+    <section className={"container relative py-12"} id="about-us">
       <div className="h-ful w-full absolute z-[-1] grid grid-cols-2 gap-8 opacity-50">
         <Image
           className="object-contain"

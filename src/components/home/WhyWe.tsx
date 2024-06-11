@@ -41,7 +41,7 @@ const advantages: AdvantageModel[] = [
 ];
 function WhyWe() {
   return (
-    <section className="container py-12">
+    <section className="container py-12" id="why-we">
       <header className="space-y-2 mb-8">
         <h2 className="text-center md:text-6xl text-4xl">Why Choose Us</h2>
         <p className="text-slate-400 font-bold text-center text-sm"

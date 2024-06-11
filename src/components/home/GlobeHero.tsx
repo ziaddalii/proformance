@@ -399,7 +399,7 @@ export function GlobeHero() {
     <section>
       <BackgroundGradientAnimation>
         <div className="h-auto w-full relative dark:bg-grid-white/[0.2] bg-grid-black/[0.2] flex items-center justify-center">
-          <div className="flex flex-row items-center pt-20 justify-center min-h-[520px] h-screen md:h-auto relative w-full">
+          <div className="flex flex-row items-center pt-28 justify-center min-h-[520px] h-screen md:h-auto relative w-full">
             <div className="absolute pointer-events-none inset-0 flex items-center justify-center [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
             <div className="container w-full relative overflow-hidden h-full md:h-[40rem]">
               <motion.div

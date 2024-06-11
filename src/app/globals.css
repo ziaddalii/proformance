@@ -53,7 +53,10 @@
       @apply border-border box-border;
     }
     body {
-      @apply bg-background text-foreground text-white;
+      @apply bg-background text-foreground text-white scroll-smooth;
+    }
+    html{
+      @apply scroll-smooth;
     }
   }
 

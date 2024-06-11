@@ -39,7 +39,7 @@ function FreeSection() {
           </p>
         </div>
         <div className="md:col-span-3 grid md:grid-cols-2 grid-cols-1 col-span-1 bg-gradient-to-r from-blue-700 to-purple-500 rounded-xl">
-          <div className="col-span-1 md:px-8 px-4 py-24 space-y-4">
+          <div className="col-span-1 px-8 py-24 space-y-4">
             <h2 className="font-bold md:text-5xl text-3xl max-w-lg">
               Join Proformance Now
             </h2>

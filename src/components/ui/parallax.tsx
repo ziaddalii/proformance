@@ -55,7 +55,8 @@ export const HeroParallax = ({
     springConfig
   );
   return (
-    <div
+    <section
+     id="features"
       ref={ref}
       style={{ backgroundImage: `url(${RadialBG.src})` }}
       className="md:h-[1800px] h-[1500px] hide-scrollbar bg-no-repeat bg-cover bg-blend-darken bg py-40 overflow-hidden antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
@@ -97,7 +98,7 @@ export const HeroParallax = ({
           ))}
         </motion.div>
       </motion.div>
-    </div>
+    </section>
   );
 };
 

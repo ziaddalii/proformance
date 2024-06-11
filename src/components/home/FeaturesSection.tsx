@@ -53,8 +53,8 @@ const content = [
 ];
 export function FeaturesSection() {
   return (
-    <div className="pt-10 pb-10 container">
+    <section className="pt-10 pb-10 container">
       <StickyScroll content={content} />
-    </div>
+    </section>
   );
 }
